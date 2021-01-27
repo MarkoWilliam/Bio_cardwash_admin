@@ -1,0 +1,32 @@
+ion-content {
+    --background: linear-gradient( 180deg, rgba(1, 172, 0, 1) 30%, rgba(46, 154, 201, 1) 50%) !important;
+}
+
+.img {
+    height: 40px;
+    width: 15%;
+    margin-top: 35px;
+    margin-left: 42.5%;
+}
+
+.input {
+    border: 1px solid;
+    color: rgb(18, 176, 238);
+    width: 80%;
+    margin-left: 10%;
+}
+
+.btn {
+    color: white;
+    background-color: #3b5998;
+    width: 35%;
+    margin-left: 32.5%;
+    height: 30px;
+}
+
+#icon {
+    color: #3b5998;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+}

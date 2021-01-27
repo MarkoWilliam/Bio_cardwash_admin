@@ -1,0 +1,53 @@
+<ion-header>
+    <ion-toolbar>
+        <app-headers></app-headers>
+    </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content style="overflow-x: hidden; " [fullscreen]="true">
+    <div style="width: 100vw;  ">
+
+        <div class="connect">
+            <p>CONNEXION</p>
+        </div>
+
+        <div>
+            <ion-icon class="img" color="light" name="person-circle"></ion-icon>
+        </div>
+
+
+        <div style="margin-top: 8px;background-color: white;">
+            <br>
+            <ion-item class="input">
+                <ion-input placeholder="Nom" type="texte"></ion-input>
+            </ion-item>
+
+            <br>
+
+            <ion-item class="input">
+                <ion-input placeholder="Mot de passe" type="password"></ion-input>
+            </ion-item>
+
+            <br>
+
+            <button class="btn" (click)="connextion()">Envoyer</button>
+
+            <br>
+            <br>
+
+
+            <div style="display: flex;flex-wrap: wrap; width: 60%;margin-left: 30%;">
+
+                <p> Connect avec </p>
+
+                <span> <ion-icon id="icon" name="logo-facebook"></ion-icon></span>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</ion-content>

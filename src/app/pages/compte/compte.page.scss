@@ -1,0 +1,71 @@
+ion-content {
+    --background: linear-gradient( 180deg, rgba(1, 172, 0, 1) 30%, rgba(46, 154, 201, 1) 50%) !important;
+}
+
+.modal-div {
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    height: 95%;
+}
+
+#btn {
+    margin-left: 100px;
+}
+
+#pos {
+    margin-top: 8px;
+    margin-left: 220px
+}
+
+.close {
+    width: 30px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.text {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(14, 187, 100);
+    margin-top: -15px;
+}
+
+#img {
+    width: 8%;
+    margin-left: 42%;
+    height: 20px;
+}
+
+#col-Text {
+    color: rgb(89, 185, 240);
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+.info1 {
+    font-size: 14px;
+    margin-top: -8px;
+    line-height: 10px;
+}
+
+.image1 {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: -2px;
+}
+
+.info2 {
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 5px;
+}
+
+#img2 {
+    width: 92%;
+    margin-left: 4%;
+    height: 19vh;
+}

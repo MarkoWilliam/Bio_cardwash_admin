@@ -1,0 +1,68 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <app-headers></app-headers>
+    </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+    <div class="modal-div">
+        <ion-buttons style="float:right;">
+            <ion-icon class="close" color="success" name="close" (click)="close()"></ion-icon>
+        </ion-buttons>
+
+
+        <br>
+        <div class="margin">
+
+            <div class="text">
+                <p>INFOS DU CLIENT</p>
+            </div>
+            <div class="info1">
+                <p>Mr Cader Val-Jean</p>
+                <p>Lavage Offre 1 - 350.00</p>
+                <p>Nieveu de saleté: Tres élevé</p>
+                <p>Prévue le 17 jan 2021 à 13h30</p>
+                <p>Photo de la voiture</p>
+
+            </div>
+        </div>
+
+        <div class="image1" style="margin-top: -9px;">
+            <ion-grid class="grid">
+                <ion-row>
+
+                    <ion-col>
+                        <img src="../../../assets/image/voiture1.jpg" alt="">
+                    </ion-col>
+                    <ion-col>
+                        <img src="../../../assets/image/voiture1.jpg" alt="">
+                    </ion-col>
+                    <ion-col>
+                        <img src="../../../assets/image/voiture1.jpg" alt="">
+                    </ion-col>
+
+                </ion-row>
+            </ion-grid>
+        </div>
+
+        <div class="info2" style="margin-top: -9px;">
+            <p><span id="col-Text">Adresse postale:</span> 25,8 ème Mille, Triolet</p>
+            <p><span id="col-Text">No.Téleohone:</span>5 782 0598</p>
+            <p><span id="col-Text">Email:</span> cader@gmail.com</p>
+            <p><span id="col-Text">Marque de la voiture</span> Renault</p>
+            <p><span id="col-Text">Modèle de la voiture:</span>Starex</p>
+            <p><span id="col-Text">Couleur de la voiture:</span> Grise</p>
+            <p><span id="col-Text">No.d'immatriculatio:</span> 2411 CZ 14</p>
+        </div>
+
+        <div style="margin-left: 20px;  color: rgb(89, 185, 240);    font-size: 14px;">
+            <p>Géolocalisation à Triolet</p>
+        </div>
+
+        <div class="image1">
+            <img id="img2" src="../../../assets/image/carte.png">
+        </div>
+    </div>
+
+</ion-content>

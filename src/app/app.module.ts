@@ -8,14 +8,29 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LoginPageModule } from './pages/login/login.module';
+import { GlobalServiceService } from './service/Globale/global-service.service';
+import { NotificationPagePageModule } from './pages/notification-page/notification-page.module';
+import { ComptePageModule } from './pages/compte/compte.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TitleComponent } from './pages/title/title.component';
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [BrowserModule, 
+    IonicModule.forRoot(),
+     AppRoutingModule,
+     LoginPageModule,
+     FormsModule,
+     ReactiveFormsModule,
+     NotificationPagePageModule,
+     ComptePageModule
+  ],
   providers: [
     StatusBar,
     SplashScreen,
+    GlobalServiceService,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
