@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <app-headers></app-headers>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <!-- Tab bar -->
+    <div class="div_tab">
+        <ion-tabs>
+            <ion-header class="ion-no-border">
+                <div class="connect">
+                    <p>DEMANDES</p>
+                </div>
+            </ion-header>
+            <ion-tab-bar slot="top" style="margin-top: -8%;">
+                <ion-tab-button (click)="Nouvelle()" tab="notification-page" id="tab">
+                    <ion-icon [color]="isNew ? 'primary' : 'light'" name="star-outline"></ion-icon>
+                    <div class="count">3</div>
+                    <ion-label id="text">Nouvelles</ion-label>
+                </ion-tab-button>
+                <ion-tab-button (click)="Confirmer()" tab="confirmer" id="tab">
+                    <ion-icon [color]="isConfirm ? 'success' : 'light'" name="checkmark-circle-outline"></ion-icon>
+                    <ion-label id="text">Confirmées</ion-label>
+                </ion-tab-button>
+                <ion-tab-button (click)="Annuler()" tab="annuler" id="tab">
+                    <ion-icon [color]="isCancel ? 'danger' : 'light'" name="close-circle-outline"></ion-icon>
+                    <ion-label id="text">Annuler</ion-label>
+                </ion-tab-button>
+            </ion-tab-bar>
+        </ion-tabs>
+
+    </div>
+
+
+
+
+</ion-content>

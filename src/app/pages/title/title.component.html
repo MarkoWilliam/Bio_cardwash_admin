@@ -6,13 +6,14 @@
     <table style="width: 100%;">
         <thead>
             <th id="image">
-                <ion-icon id="icon" (click)="Nouvelle()" color="light" slot="end" name="star"></ion-icon>
+                <ion-icon id="icon" (click)="Nouvelle()" [color]="isNew ? 'primary' : 'light'" slot="end" name="star-outline"></ion-icon>
+                <div class="count">3</div>
             </th>
             <th id="image">
-                <ion-icon id="icon" (click)="Confirmer()" color="light" slot="end" name="checkmark-circle"></ion-icon>
+                <ion-icon id="icon" (click)="Confirmer()" [color]="isConfirm ? 'success' : 'light'" slot="end" name="checkmark-circle-outline"></ion-icon>
             </th>
             <th id="image">
-                <ion-icon id="icon" (click)="Annuler()" color="light" slot="end" name="close-circle"></ion-icon>
+                <ion-icon id="icon" (click)="Annuler()" [color]="isCancel ? 'danger' : 'light'" slot="end" name="close-circle-outline"></ion-icon>
             </th>
         </thead>
         <tbody style="text-align: center;color: white;">

@@ -19,7 +19,7 @@ export class LoginPage implements OnInit {
 
   connextion(){
     this.global.connected = true;
-    this.router.navigate(['notification-page']);
+    this.router.navigate(['demande']);
   }
 
 

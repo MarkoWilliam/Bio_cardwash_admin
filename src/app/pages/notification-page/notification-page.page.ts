@@ -16,20 +16,15 @@ export class NotificationPagePage implements OnInit {
   ) { }
 
   ngOnInit() { 
+    
   }
-
 
   compte() {
     this.router.navigate(['compte']);
   }
 
-  //  async open() {
-  //   const modal = await this.modalCtrl.create({
-  //    component: ComptePage,
-  //    cssClass: 'my-custom-class'
-  //   });
-  
-  // await modal.present();
-  //   }
+  close() {
+    this.router.navigate(['annuler']);
+  }
 
 }

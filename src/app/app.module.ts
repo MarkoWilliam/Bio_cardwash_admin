@@ -12,8 +12,8 @@ import { LoginPageModule } from './pages/login/login.module';
 import { GlobalServiceService } from './service/Globale/global-service.service';
 import { NotificationPagePageModule } from './pages/notification-page/notification-page.module';
 import { ComptePageModule } from './pages/compte/compte.module';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { TitleComponent } from './pages/title/title.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
+import { DemandePageModule } from './pages/demande/demande.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -25,7 +25,8 @@ import { TitleComponent } from './pages/title/title.component';
      FormsModule,
      ReactiveFormsModule,
      NotificationPagePageModule,
-     ComptePageModule
+     ComptePageModule,
+     DemandePageModule
   ],
   providers: [
     StatusBar,

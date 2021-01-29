@@ -1,7 +1,17 @@
 ion-content {
-    --background: linear-gradient( 180deg, rgba(1, 172, 0, 1) 30%, rgba(46, 154, 201, 1) 50%) !important;
+    --background: linear-gradient( 180deg, rgba(1, 167, 88, 1) 30%, rgba(26, 165, 211, 1) 50%) !important;
 }
 
 ion-item {
     --background: transparent;
+}
+
+.conf {
+    color: rgb(38, 255, 38);
+}
+
+#Test:hover {
+    background-color: rgb(38, 255, 38);
+    border-color: rgb(38, 255, 38);
+    ;
 }

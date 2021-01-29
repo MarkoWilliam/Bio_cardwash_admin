@@ -18,7 +18,7 @@ export class ComptePage implements OnInit {
  
 
   close() {
-    this.router.navigate(['notification-page']);
+    this.router.navigate(['demande']);
   }
 
   

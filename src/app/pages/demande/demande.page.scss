@@ -1,0 +1,42 @@
+ion-content {
+    --background: linear-gradient( 180deg, rgba(1, 167, 88, 1) 30%, rgba(26, 165, 211, 1) 50%) !important;
+}
+
+ion-item {
+    --background: transparent;
+}
+
+.count {
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 15px;
+    margin-left: 17%;
+    margin-top: -45%;
+}
+
+ion-tab-bar,
+ion-tab-button {
+    background-color: rgba(1, 167, 88, 1);
+}
+
+.div_tab ion-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.div_tab {
+    margin-top: 20px;
+}
+
+#tab {
+    margin-top: 10px;
+}
+
+#text {
+    color: white!important;
+}

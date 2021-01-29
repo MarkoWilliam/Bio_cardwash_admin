@@ -18,7 +18,7 @@ export class HeadersComponent implements OnInit {
   ) {}
 
   notif() {
- this.router.navigate(['notification-page'])
+ this.router.navigate(['demande'])
   }
 
   conexion(){

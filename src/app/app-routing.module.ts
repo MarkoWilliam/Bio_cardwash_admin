@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { PreloadAllModules, RouterModule, Routes } from '@angular/router'; 
 
 const routes: Routes = [
   {
@@ -31,7 +31,12 @@ const routes: Routes = [
     path: 'annuler',
     loadChildren: () => import('./pages/annuler/annuler.module').then( m => m.AnnulerPageModule)
   },
-  // { path: 'login', component: LoginComponent },
+  {
+    path: 'demande',
+    loadChildren: () => import('./pages/demande/demande.module').then( m => m.DemandePageModule)
+  },
+
+ 
 ];
 
 @NgModule({
