@@ -14,6 +14,7 @@ import { NotificationPagePageModule } from './pages/notification-page/notificati
 import { ComptePageModule } from './pages/compte/compte.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
 import { DemandePageModule } from './pages/demande/demande.module';
+import { PopoverModule } from 'ngx-smart-popover';
 
 @NgModule({
   declarations: [AppComponent],
@@ -26,7 +27,8 @@ import { DemandePageModule } from './pages/demande/demande.module';
      ReactiveFormsModule,
      NotificationPagePageModule,
      ComptePageModule,
-     DemandePageModule
+     DemandePageModule,
+     PopoverModule
   ],
   providers: [
     StatusBar,

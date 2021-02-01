@@ -1,5 +1,7 @@
 {
   "name": "Bio_cardwash_admin",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

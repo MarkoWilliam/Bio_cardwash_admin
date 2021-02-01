@@ -9,7 +9,7 @@ const routes: Routes = [
     component: DemandePage,
     children: [
       {
-        path: 'notification-page',
+        path: 'notification-page', 
         children: [
           {
             path: '',

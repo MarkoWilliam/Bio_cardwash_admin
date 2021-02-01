@@ -9,6 +9,7 @@ import { ConfirmerPageRoutingModule } from './confirmer-routing.module';
 import { ConfirmerPage } from './confirmer.page';
 import { TitleModule } from '../title/title.module';
 import { HeadersModule } from '../headers/headers.module';
+import { PopoverModule } from 'ngx-smart-popover';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { HeadersModule } from '../headers/headers.module';
     IonicModule,
     ConfirmerPageRoutingModule,
     TitleModule,
-    HeadersModule
+    HeadersModule,
+    PopoverModule
 
   ],
   declarations: [ConfirmerPage]
